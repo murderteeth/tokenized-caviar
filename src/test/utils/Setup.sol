@@ -50,8 +50,8 @@ contract Setup is ExtendedTest, IEvents {
     function setUp() public virtual {
         _setTokenAddrs();
 
-        // Set asset
-        asset = ERC20(tokenAddrs["DAI"]);
+        // Caviar (CVR)
+        asset = ERC20(0x6AE96Cc93331c19148541D4D2f31363684917092);
 
         // Set decimals
         decimals = asset.decimals();
